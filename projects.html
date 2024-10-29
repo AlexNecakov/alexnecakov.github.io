@@ -18,11 +18,13 @@
         video {
             width: 100%;
             max-height: 100%;
+            aspect-ratio: 16 / 9;
         }
 
         iframe {
             width: 100%;
             max-height: 100%;
+            aspect-ratio: 16 / 9;
         }
 
         img {
@@ -55,10 +57,10 @@
             <article>
                 <header>
                     <h2>Escape Velocity</h2>
-                    <video controls loop>
-                        <source src="https://www.youtube.com/watch?v=naZ_KHa-cBo">
-                        A video of escape velocity
-                    </video>
+                    <iframe src="https://www.youtube.com/embed/naZ_KHa-cBo?si=aTjxALxDb2JKwCpZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </header>
                 <p>
                     My latest project, a gravity-based space exploration game where you control a space probe with
@@ -72,23 +74,6 @@
                 <p> You can download the game <a href="https://alexnecakov.itch.io/escape-velocity">here</a>
                 </p>
                 <footer>September, 2024-Present</footer>
-            </article>
-
-            <article>
-                <header>
-                    <h2>SkyLimit</h2>
-                    <img src="projects_media/skylimit.png">
-                    <hr>
-                    <iframe frameborder="0" src="https://itch.io/embed/1901684?dark=true" height="167"><a
-                            href="https://creikey.itch.io/skylimit">SkyLimit by creikey</a></iframe>
-                </header>
-
-                <p>Originally a game jam game made in a few hours to experiment with physics and game design, it was
-                    iterated on some more over the course of another 8 hours with Design Oriented to refine the concept.
-                    You can learn more about SkyLimit on its itch page <a
-                        href="https://creikey.itch.io/skylimit">here</a>
-                </p>
-                <footer>About 12 hours of work. February, 2023</footer>
             </article>
         </main>
     </body>
